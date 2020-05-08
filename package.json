@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-lib": "ng build oe-library"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +22,8 @@
     "@angular/router": "~8.1.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "oe-library": "file:dist/oe-library"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.2",
@@ -42,6 +44,9 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "~3.4.3",
+    "@angular-devkit/build-ng-packagr": "0.901.4",
+    "ng-packagr": "9.1.3",
+    "tsickle": "0.38.1"
   }
 }
