@@ -1,0 +1,3 @@
+[submodule "oe-library"]
+	path = oe-library
+	url = git@github.com:olofens/ng-lib-lib-2.git
