@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build-lib": "ng build oe-library"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -22,8 +21,7 @@
     "@angular/router": "~8.1.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1",
-    "oe-library": "file:dist/oe-library"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.2",

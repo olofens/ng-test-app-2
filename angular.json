@@ -115,19 +115,6 @@
           }
         }
       }
-    }, "oe-library": {
-      "root": "oe-library",
-      "sourceRoot": "oe-library/src",
-      "projectType": "library",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "oe-library/tsconfig.lib.json",
-            "project": "oe-library/ng-package.json"
-          }
-        }
-      }
     }},
   "defaultProject": "lib-test-app-gitsubmodules"
 }
